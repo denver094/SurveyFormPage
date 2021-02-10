@@ -1,0 +1,96 @@
+body{
+  text-align:center;
+  font-family: Courier New;
+  background: url('background.png') no-repeat center center/cover;;
+  color:white;
+  
+}
+#title{
+  font-size:45px;
+}
+#description{
+  font-size:20px;
+}
+
+
+#body{
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4);
+    border-radius:10px;
+    text-align:left;
+    font-size:20px;
+    color: white;
+}
+.bodyleft{
+  width:450px;
+  padding:20px;
+  
+}
+.bodyright{
+  width:450px;
+  padding:20px;
+  
+}
+
+#name{
+  width:380px;
+  padding:15px;
+  border-radius:10px;
+}
+#email{
+  width:380px;
+  padding:15px;
+  border-radius:10px;
+}
+#number{
+  width:380px;
+  padding:15px;
+  border-radius:10px;
+}
+#dropdown{
+  width:410px;
+  padding:15px;
+  border-radius:10px;
+}
+#comment{
+  width:410px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  
+}
+#submit{
+  width:430px;
+  padding:20px;
+  font-size:20px;
+  border-radius:10px;
+  border:none;
+  margin-top:3%;
+  color:white;
+  background-color:orange;
+  
+}
+#submit:hover{
+    background-color: red;
+    cursor: pointer;
+}
+/* Footer */
+.copyright{
+    background-color: black;
+    color: white;
+}
+.copyright p{
+    color: white;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.copyright span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
